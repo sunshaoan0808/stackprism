@@ -1,6 +1,14 @@
 <div align="center">
 
-<img src="../public/icons/icon256.png" alt="StackPrism" width="160" height="160" />
+<img src="../public/repository.png" alt="StackPrism" />
+
+# StackPrism — Web-Tech-Stack-Detektor
+
+> Sammelt Hinweise aus 6 Dimensionen — Laufzeit-Globals, DOM, Ressourcen-URLs, Antwort-Header, dynamisches Laden und JS-Urheberrechtskommentare — um die Technologien zu identifizieren und zu kategorisieren, die eine Website antreiben.
+
+[简体中文](README.cn.md) · [English](../README.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [Français](README.fr.md) · **Deutsch** · [Português](README.pt.md) · [Italiano](README.it.md) · [Čeština](README.cs.md) · [Polski](README.pl.md)
+
+[Einführung](#einführung) • [Funktionen](#funktionen) • [Regelsystem](#regelsystem) • [Einschränkungen](#einschränkungen) • [Mitwirken](#mitwirken) • [Sponsoren](SPONSORS.md) • [Star-Verlauf](#star-verlauf) • [Lizenz](#lizenz)
 
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/cagpdifljieeiajlhlcboelglkalofak?label=Chrome%20Web%20Store&color=FBBC04)](https://chromewebstore.google.com/detail/stackprism/cagpdifljieeiajlhlcboelglkalofak)
 [![Edge Add-ons](https://img.shields.io/badge/dynamic/json?label=Edge%20Add-ons&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fojgmhlogaoiegdonnlnibeoikbleccno&prefix=v&color=00A4EF)](https://microsoftedge.microsoft.com/addons/detail/stackprism/ojgmhlogaoiegdonnlnibeoikbleccno)
@@ -9,18 +17,6 @@
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-4CAF50)](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3)
 [![Platform](https://img.shields.io/badge/Platform-Chrome%20%7C%20Edge%20%7C%20Firefox-26A69A)](#installation)
 [![PRs welcome!](https://img.shields.io/badge/PRs-Welcome-FF6F61)](https://github.com/setube/stackprism/issues)
-
-# StackPrism — Web-Tech-Stack-Detektor
-
-> Sammelt Hinweise aus 6 Dimensionen — Laufzeit-Globals, DOM, Ressourcen-URLs, Antwort-Header, dynamisches Laden und JS-Urheberrechtskommentare — um die Technologien zu identifizieren und zu kategorisieren, die eine Website antreiben.
-
-<div align="center">
-
-[简体中文](../README.md) · [English](README.en.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [Français](README.fr.md) · **Deutsch** · [Português](README.pt.md) · [Italiano](README.it.md) · [Čeština](README.cs.md) · [Polski](README.pl.md)
-
-</div>
-
-[Einführung](#einführung) • [Funktionen](#funktionen) • [Regelsystem](#regelsystem) • [Einschränkungen](#einschränkungen) • [Mitwirken](#mitwirken) • [Sponsoren](SPONSORS.md) • [Star-Verlauf](#star-verlauf) • [Lizenz](#lizenz)
 
 </div>
 

@@ -1,6 +1,14 @@
 <div align="center">
 
-<img src="../public/icons/icon256.png" alt="StackPrism" width="160" height="160" />
+<img src="../public/repository.png" alt="StackPrism" />
+
+# StackPrism — Web テックスタック検出ツール
+
+> 6つの次元（ランタイムグローバル変数、DOM、リソースURL、レスポンスヘッダー、動的読み込み、JSコピーライトコメント）から手がかりを収集し、任意のウェブサイトを動かす技術を識別・分類します。
+
+[简体中文](README.cn.md) · [English](../README.md) · [繁體中文](README.zh-Hant.md) · **日本語** · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Italiano](README.it.md) · [Čeština](README.cs.md) · [Polski](README.pl.md)
+
+[はじめに](#はじめに) • [機能](#機能) • [ルールシステム](#ルールシステム) • [注意事項](#注意事項) • [コントリビュート](#コントリビュート) • [スポンサー](SPONSORS.md) • [スター履歴](#スター履歴) • [ライセンス](#ライセンス)
 
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/cagpdifljieeiajlhlcboelglkalofak?label=Chrome%20Web%20Store&color=FBBC04)](https://chromewebstore.google.com/detail/stackprism/cagpdifljieeiajlhlcboelglkalofak)
 [![Edge Add-ons](https://img.shields.io/badge/dynamic/json?label=Edge%20Add-ons&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fojgmhlogaoiegdonnlnibeoikbleccno&prefix=v&color=00A4EF)](https://microsoftedge.microsoft.com/addons/detail/stackprism/ojgmhlogaoiegdonnlnibeoikbleccno)
@@ -9,18 +17,6 @@
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-4CAF50)](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3)
 [![Platform](https://img.shields.io/badge/Platform-Chrome%20%7C%20Edge%20%7C%20Firefox-26A69A)](#インストール)
 [![PRs welcome!](https://img.shields.io/badge/PRs-Welcome-FF6F61)](https://github.com/setube/stackprism/issues)
-
-# StackPrism — Web テックスタック検出ツール
-
-> 6つの次元（ランタイムグローバル変数、DOM、リソースURL、レスポンスヘッダー、動的読み込み、JSコピーライトコメント）から手がかりを収集し、任意のウェブサイトを動かす技術を識別・分類します。
-
-<div align="center">
-
-[简体中文](../README.md) · [English](README.en.md) · [繁體中文](README.zh-Hant.md) · **日本語** · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Italiano](README.it.md) · [Čeština](README.cs.md) · [Polski](README.pl.md)
-
-</div>
-
-[はじめに](#はじめに) • [機能](#機能) • [ルールシステム](#ルールシステム) • [注意事項](#注意事項) • [コントリビュート](#コントリビュート) • [スポンサー](SPONSORS.md) • [スター履歴](#スター履歴) • [ライセンス](#ライセンス)
 
 </div>
 

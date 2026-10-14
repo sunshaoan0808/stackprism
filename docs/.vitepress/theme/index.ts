@@ -1,9 +1,12 @@
 import DefaultTheme from 'vitepress/theme'
 import type { Theme } from 'vitepress'
-import { watch, nextTick } from 'vue'
+import { watch, nextTick, h } from 'vue'
 import { useRoute } from 'vitepress'
 import './style.css'
 import IssueFeedback from './IssueFeedback.vue'
+import HeroSection from './HeroSection.vue'
+import FeatureSection from './FeatureSection.vue'
+import LanguageBanner from './LanguageBanner.vue'
 
 // 根据当前路径找到对应语言的菜单项并加上 active 标记
 function markCurrentLang() {
@@ -26,10 +29,28 @@ function markCurrentLang() {
   })
 }
 
+function isHomePage(path: string): boolean {
+  return path === 'index.md' || /^[a-z]{2}(-[A-Z]{2})?\/index\.md$/.test(path)
+}
+
 export default {
   extends: DefaultTheme,
+  Layout() {
+    return h(DefaultTheme.Layout, null, {
+      'home-hero-before': () => {
+        const route = useRoute()
+        if (isHomePage(route.data.relativePath)) {
+          return [h(HeroSection), h(FeatureSection), h(LanguageBanner)]
+        }
+        return null
+      }
+    })
+  },
   enhanceApp({ app, router }) {
     app.component('IssueFeedback', IssueFeedback)
+    app.component('HeroSection', HeroSection)
+    app.component('FeatureSection', FeatureSection)
+    app.component('LanguageBanner', LanguageBanner)
     if (typeof window !== 'undefined') {
       router.onAfterRouteChanged = () => {
         nextTick(markCurrentLang)
